@@ -1,0 +1,9 @@
+[2023-03-22 21:05:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fab/vendor/fa/Router.php | Line: 108
+[2023-03-23 03:06:09] Code: 0 | Message: Class "fa2\basic\controllers\WidgetController" not found | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 9
+[2023-03-23 03:06:48] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
+[2023-03-23 03:10:47] Code: 2 | Message: Undefined variable $page_dir | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
+[2023-03-23 03:11:05] Code: 2 | Message: Undefined variable $page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
+[2023-03-23 03:15:39] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$widget | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 118
+[2023-03-23 03:25:38] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 75
+[2023-03-23 03:49:00] Code: 2 | Message: Undefined array key "search" | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 81
+[2023-04-21 13:24:37] Code: 2 | Message: Undefined variable $w_dtorrent | File: /opt/lampp/htdocs/fab/app/pages/torrent/__/indexView.php | Line: 1
