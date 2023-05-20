@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8b84e0dedb88e8dd37cd892080d2bde8b9ebf853',
+        'reference' => '0b55aa7b745b2753d4a4315ee5ae63059055d20b',
         'name' => 'fa/fa',
         'dev' => true,
     ),
@@ -25,7 +25,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8b84e0dedb88e8dd37cd892080d2bde8b9ebf853',
+            'reference' => '0b55aa7b745b2753d4a4315ee5ae63059055d20b',
             'dev_requirement' => false,
         ),
         'gabordemooij/redbean' => array(
