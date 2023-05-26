@@ -48,14 +48,15 @@ class Model
 
     public function getLabels()
     {
-        if (file_exists(ROOT . $this->dir . 'labels.json')) {            
-            $labels = json_decode(file_get_contents(ROOT . $this->dir . 'labels.json'), true);
+        if (file_exists($this->dir . '/labels.json')) {            
+            $labels = json_decode(file_get_contents($this->dir . '/labels.json'), true);
             if (is_array($labels)) {
                 $language = App::$app->getLanguage()['code'];
                 if (array_key_exists($language, $labels)) {
-                    $labels = $labels[$language];
-                    foreach ($labels as $key => $value) {
-                        App::$app->setLabel($key, $value);
+                    return $labels[$language];
+                } else {
+                    foreach ( $labels as $key => $value) {
+                        return $value;
                     }
                 }
             }

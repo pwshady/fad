@@ -13,10 +13,25 @@ class PageModel extends Model
         self::getAccess();
         self::getErrors();
         self::getSettings();
-        self::getLabels();
+        self::getLabels(); //Peredelat
         self::getModules();
         self::getWidgets();
     }
 
+    public function getLabels()
+    {
+        if (file_exists(ROOT . $this->dir . 'labels.json')) {            
+            $labels = json_decode(file_get_contents(ROOT . $this->dir . 'labels.json'), true);
+            if (is_array($labels)) {
+                $language = App::$app->getLanguage()['code'];
+                if (array_key_exists($language, $labels)) {
+                    $labels = $labels[$language];
+                    foreach ($labels as $key => $value) {
+                        App::$app->setLabel($key, $value);
+                    }
+                }
+            }
+        }
+    }
 
 }
