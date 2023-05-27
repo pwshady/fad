@@ -1,0 +1,36 @@
+{
+    "_mode": "",
+    "mode": "",
+    "key_name": "",
+    "key": "",
+    "url_name": "",
+    "max_time": "",
+    "max_error": "",
+    "type": "",
+    "type_pagination": "",
+    "name_pagination": "",
+    "max_pagination": "",
+    "mask": {
+        "0": {
+            "prefix": {
+                "0": ""
+            },
+            "data": {
+                "type": "",
+                "name": "",
+                "mask": ""
+            },
+            "postfix": {
+                "0": ""
+            }
+        }
+    },
+    "dada": {
+        "0": {
+            "table_name": "",
+            "array_name": "",
+            "array_type": "",
+            "method": ""
+        }
+    }
+}

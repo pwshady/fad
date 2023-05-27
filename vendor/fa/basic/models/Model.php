@@ -10,7 +10,7 @@ class Model
 
     public function run(){}
 
-    public function getAccess()
+    public function setAccess()
     {
         if (file_exists(ROOT . $this->dir . 'access.json')) {       
             $access = json_decode(file_get_contents(ROOT . $this->dir . 'access.json'), true);
@@ -20,7 +20,7 @@ class Model
         }
     }
 
-    public function getErrors()
+    public function setErrors()
     {
         if (file_exists(ROOT . $this->dir . 'errors.json')) {
             $errors = json_decode(file_get_contents(ROOT . $this->dir . 'errors.json'), true);
@@ -32,7 +32,7 @@ class Model
         }
     }
 
-    public function getSettings()
+    public function setSettings()
     {
         if (file_exists(ROOT . $this->dir . 'settings.json')) {           
             $settings = json_decode(file_get_contents(ROOT . $this->dir . 'settings.json'), true);
@@ -46,7 +46,7 @@ class Model
         }
     }
 
-    public function getLabels()
+    public function setLabels()
     {
         if (file_exists($this->dir . '/labels.json')) {            
             $labels = json_decode(file_get_contents($this->dir . '/labels.json'), true);
@@ -63,7 +63,7 @@ class Model
         }
     }
 
-    public function getModules()
+    public function setModules()
     {
         if (file_exists(ROOT . $this->dir . 'modules.json')) {
             $modules = json_decode(file_get_contents(ROOT . $this->dir . 'modules.json'), true);
@@ -75,7 +75,7 @@ class Model
         }
     }
 
-    public function getWidgets()
+    public function setWidgets()
     {
         if (file_exists(ROOT . $this->dir . 'widgets.json')) {
             $widgets = json_decode(file_get_contents(ROOT . $this->dir . 'widgets.json'), true);

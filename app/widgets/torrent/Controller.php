@@ -114,7 +114,7 @@ class Controller extends WidgetController
     {
         $widget['name'] = $this->widget_name;
         $widget['complete'] = 1;
-        $labels = $this->model->getLabels();
+        $labels = $this->model->setLabels();
         ob_start();
         require_once __DIR__ . '/searchView.php';
         $html[0] = ob_get_clean();

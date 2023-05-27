@@ -8,3 +8,22 @@
 [2023-03-23 03:49:00] Code: 2 | Message: Undefined array key "search" | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 81
 [2023-04-21 13:24:37] Code: 2 | Message: Undefined variable $w_dtorrent | File: /opt/lampp/htdocs/fab/app/pages/torrent/__/indexView.php | Line: 1
 [2023-05-18 15:49:18] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/pages/pars/__/indexView.php | Line: 1
+[2023-05-27 03:15:21] Code: 2 | Message: Undefined property: app\widgets\parser\Controller::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:17:09] Code: 0 | Message: Cannot access protected property fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:17:39] Code: 0 | Message: Cannot access protected property fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:18:35] Code: 0 | Message: Access to undeclared static property fa\basic\models\WidgetModel::$dir | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:18:55] Code: 2 | Message: Undefined variable $dir | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:19:21] Code: 0 | Message: Object of class app\widgets\parser\Controller could not be converted to string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 03:26:30] Code: 0 | Message: Call to undefined method app\widgets\torrent\Model::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/torrent/Controller.php | Line: 117
+[2023-05-27 03:28:38] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 21
+[2023-05-27 03:29:08] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::get() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 10:17:26] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::setConfigs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 15
+[2023-05-27 10:18:06] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getConfig() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 10:18:37] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getConfig() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
+[2023-05-27 10:20:03] Code: 2 | Message: Undefined property: fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 28
+[2023-05-27 10:22:49] Code: 2 | Message: Undefined variable $configs | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 24
+[2023-05-27 22:50:56] Code: 0 | Message: Call to undefined method app\widgets\parser\Controller::configs() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 19
+[2023-05-27 22:51:20] Code: 0 | Message: Call to undefined method app\widgets\parser\Controller::config() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 19
+[2023-05-27 22:52:17] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37
+[2023-05-27 22:55:19] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37
+[2023-05-27 22:57:17] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37

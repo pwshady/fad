@@ -10,15 +10,15 @@ class PageModel extends Model
 
     public function run()
     {
-        self::getAccess();
-        self::getErrors();
-        self::getSettings();
-        self::getLabels(); //Peredelat
-        self::getModules();
-        self::getWidgets();
+        self::setAccess();
+        self::setErrors();
+        self::setSettings();
+        self::setLabels(); //Peredelat
+        self::setModules();
+        self::setWidgets();
     }
 
-    public function getLabels()
+    public function setLabels()
     {
         if (file_exists(ROOT . $this->dir . 'labels.json')) {            
             $labels = json_decode(file_get_contents(ROOT . $this->dir . 'labels.json'), true);
