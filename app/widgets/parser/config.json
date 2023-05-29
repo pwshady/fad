@@ -2,13 +2,11 @@
     "_mode": "",
     "mode": "",
     "key_name": "",
-    "key": "",
-    "url_name": "",
+    "key": "1",
+    "url_name": "url",
     "max_time": "",
     "max_error": "",
-    "type": "",
     "type_pagination": "",
-    "name_pagination": "",
     "max_pagination": "",
     "mask": {
         "0": {
@@ -16,8 +14,8 @@
                 "0": ""
             },
             "data": {
-                "type": "",
-                "name": "",
+                "type": "multi",
+                "name": "test",
                 "mask": ""
             },
             "postfix": {
