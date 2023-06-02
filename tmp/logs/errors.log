@@ -1,36 +1,43 @@
-[2023-03-22 21:05:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fab/vendor/fa/Router.php | Line: 108
-[2023-03-23 03:06:09] Code: 0 | Message: Class "fa2\basic\controllers\WidgetController" not found | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 9
-[2023-03-23 03:06:48] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
-[2023-03-23 03:10:47] Code: 2 | Message: Undefined variable $page_dir | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
-[2023-03-23 03:11:05] Code: 2 | Message: Undefined variable $page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 83
-[2023-03-23 03:15:39] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$widget | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 118
-[2023-03-23 03:25:38] Code: 2 | Message: Undefined property: app\widgets\torrent\Controller::$page | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 75
-[2023-03-23 03:49:00] Code: 2 | Message: Undefined array key "search" | File: /opt/lampp/htdocs/fab/app/widgets/torrent/Controller.php | Line: 81
-[2023-04-21 13:24:37] Code: 2 | Message: Undefined variable $w_dtorrent | File: /opt/lampp/htdocs/fab/app/pages/torrent/__/indexView.php | Line: 1
-[2023-05-18 15:49:18] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/pages/pars/__/indexView.php | Line: 1
-[2023-05-27 03:15:21] Code: 2 | Message: Undefined property: app\widgets\parser\Controller::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:17:09] Code: 0 | Message: Cannot access protected property fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:17:39] Code: 0 | Message: Cannot access protected property fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:18:35] Code: 0 | Message: Access to undeclared static property fa\basic\models\WidgetModel::$dir | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:18:55] Code: 2 | Message: Undefined variable $dir | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:19:21] Code: 0 | Message: Object of class app\widgets\parser\Controller could not be converted to string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 03:26:30] Code: 0 | Message: Call to undefined method app\widgets\torrent\Model::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/torrent/Controller.php | Line: 117
-[2023-05-27 03:28:38] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 21
-[2023-05-27 03:29:08] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::get() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 10:17:26] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::setConfigs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 15
-[2023-05-27 10:18:06] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getConfig() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 10:18:37] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getConfig() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 23
-[2023-05-27 10:20:03] Code: 2 | Message: Undefined property: fa\basic\models\WidgetModel::$config | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 28
-[2023-05-27 10:22:49] Code: 2 | Message: Undefined variable $configs | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 24
-[2023-05-27 22:50:56] Code: 0 | Message: Call to undefined method app\widgets\parser\Controller::configs() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 19
-[2023-05-27 22:51:20] Code: 0 | Message: Call to undefined method app\widgets\parser\Controller::config() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 19
-[2023-05-27 22:52:17] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37
-[2023-05-27 22:55:19] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37
-[2023-05-27 22:57:17] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::configs() | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 37
-[2023-05-29 15:35:01] Code: 0 | Message: Cannot use [] for reading | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 35
-[2023-05-29 18:24:36] Code: 0 | Message: curl_exec() expects exactly 1 argument, 0 given | File: /opt/lampp/htdocs/fad/app/modules/curl/Controller.php | Line: 25
-[2023-05-29 19:15:50] Code: 2 | Message: Undefined property: app\widgets\parser\Controller::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 74
-[2023-05-29 19:18:38] Code: 2 | Message: Undefined property: app\widgets\parser\Controller::$config | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 74
-[2023-05-29 19:39:25] Code: 0 | Message: Call to undefined function app\widgets\parser\parsData() | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 75
-[2023-05-29 19:40:18] Code: 2 | Message: Undefined variable $value | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 85
-[2023-05-29 21:30:11] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 84
+[2023-06-01 15:12:40] Code: 8192 | Message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 105
+[2023-06-01 15:13:14] Code: 8192 | Message: strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 163
+[2023-06-01 15:53:54] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 57
+[2023-06-01 15:57:10] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/vendor/fa/func/debug.php | Line: 13
+[2023-06-01 16:08:10] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/vendor/fa/func/debug.php | Line: 14
+[2023-06-01 16:42:03] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 130
+[2023-06-01 17:04:20] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 17:06:02] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 17:07:49] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 17:09:36] Code: 0 | Message: implode(): Argument #1 ($pieces) must be of type array, string given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 127
+[2023-06-01 17:38:13] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 141
+[2023-06-01 17:39:57] Code: 0 | Message: array_push(): Argument #1 ($array) must be of type array, null given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 137
+[2023-06-01 17:43:37] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 143
+[2023-06-01 17:43:54] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 143
+[2023-06-01 18:09:23] Code: 2 | Message: Undefined array key "postfix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
+[2023-06-01 18:10:31] Code: 2 | Message: Undefined array key "postfix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
+[2023-06-01 18:22:50] Code: 2 | Message: Undefined array key "prefix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
+[2023-06-01 18:28:28] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
+[2023-06-01 18:29:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
+[2023-06-01 18:31:50] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 160
+[2023-06-01 18:33:23] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 137
+[2023-06-01 18:35:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
+[2023-06-01 18:37:46] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
+[2023-06-01 18:46:27] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
+[2023-06-01 18:49:17] Code: 2 | Message: foreach() argument must be of type array|object, string given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 18:52:04] Code: 2 | Message: Undefined array key 1 | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 18:53:22] Code: 2 | Message: Undefined array key 1 | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
+[2023-06-01 21:16:16] Code: 2 | Message: Undefined variable $recurs | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 132
+[2023-06-01 22:15:51] Code: 0 | Message: syntax error, unexpected token "{", expecting "function" or "const" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 213
+[2023-06-01 22:27:03] Code: 2 | Message: Undefined array key "key" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 217
+[2023-06-02 00:18:26] Code: 2 | Message: Undefined variable $tec_result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 233
+[2023-06-02 00:41:05] Code: 0 | Message: Typed property fa\basic\models\WidgetModel::$configs must not be accessed before initialization | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 31
+[2023-06-02 00:41:20] Code: 0 | Message: Typed property fa\basic\models\WidgetModel::$configs must not be accessed before initialization | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 31
+[2023-06-02 01:12:07] Code: 2 | Message: Undefined array key "mask_data" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
+[2023-06-02 09:49:41] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
+[2023-06-02 09:52:11] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
+[2023-06-02 09:55:37] Code: 2 | Message: Undefined variable $tec_result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 238
+[2023-06-02 13:32:50] Code: 2 | Message: Undefined variable $pagams | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 245
+[2023-06-02 15:10:19] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
+[2023-06-02 15:11:39] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
+[2023-06-02 15:12:55] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
+[2023-06-02 19:12:11] Code: 2 | Message: Undefined array key "pagination" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 57
+[2023-06-02 19:46:13] Code: 2 | Message: Undefined variable $request | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 81
