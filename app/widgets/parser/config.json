@@ -1,7 +1,8 @@
 {
     "_mode": "",
     "base_url": "https://www.gtdb.to",
-    "mode": "",
+    "mode": "job",
+    "headers": [],
     "key_name": "",
     "key": "1",
     "url_name": "url",
@@ -72,7 +73,7 @@
                                             },
                                             "3": {
                                                 "prefix": {
-                                                    "0": "<a href=\"",
+                                                    "0": "<a href=",
                                                     "1": "href=\""
                                                 },
                                                 "data": {
@@ -186,12 +187,13 @@
                             "key": "torrents",
                             "type": "table",
                             "params": {
-                                "name": "",
+                                "table_name": "torrents",
                                 "type": "",
+                                "uniq": "magnet",
                                 "row": {
                                     "id": {
                                         "type": "const",
-                                        "value": "12"
+                                        "value": ""
                                     },
                                     "type": {
                                         "type": "data",
@@ -208,7 +210,8 @@
                                     },
                                     "magnet": {
                                         "type": "data",
-                                        "name": "3"
+                                        "name": "3",
+                                        "dtype": "is_string"
                                     },
                                     "size": {
                                         "type": "data",
@@ -221,6 +224,33 @@
                                     "leech": {
                                         "type": "data",
                                         "name": "6"
+                                    },
+                                    "date": {
+                                        "type": "func",
+                                        "name_func": "time"
+                                    },
+                                    "ist": {
+                                        "type": "const",
+                                        "value": "1"
+                                    },
+                                    "details": {
+                                        "type": "const",
+                                        "value": "0"
+                                    },
+                                    "hash": {
+                                        "type": "func",
+                                        "name_func": "pars",
+                                        "name": "3",
+                                        "value": {
+                                            "prefix": {
+                                                "0": ":",
+                                                "1": ":",
+                                                "2": ":"
+                                            },
+                                            "postfix": {
+                                                "0": "&"
+                                            }
+                                        }
                                     }
                                 }
                             }

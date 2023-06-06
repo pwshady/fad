@@ -71,10 +71,16 @@ class Controller extends WidgetController
         debug($this->res);
     }
 
-    private function getPage($url, $error=0)
+    private function getPage($url, $error = 0)
     {
         $curl = App::$app->getModul('curl')['object'];
         $ch = $curl->curl_init();
+        if (array_key_exists('headers', $this->configs)){
+            $headers = $this->configs['headers'];
+            if (is_array($headers)) {
+                $curl->curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+            }
+        }
         $curl->curl_setopt($ch, CURLOPT_URL, $url);
         $curl->curl_setopt($ch, CURLOPT_COOKIEFILE, __DIR__ . '/cookie.txt');
         $curl->curl_setopt($ch, CURLOPT_COOKIEJAR, __DIR__ . '/cookie.txt');
@@ -84,7 +90,16 @@ class Controller extends WidgetController
         $html = $curl->curl_exec($ch);
         $curl->curl_close($ch);
         if ($html == '' && array_key_exists('max_error', $this->configs) && is_numeric($this->configs['max_error']) && $error < $this->configs['max_error']){
+            sleep(1);
             $html = self::getPage($url, $error+1);
+        }
+        if ($this->configs['mode'] == 'get_page') {
+            debug($html);
+            die;
+        }
+        if ($this->configs['mode'] == 'get_html_page') {
+            debug(htmlspecialchars($html));
+            die;
         }
         return $html;
     }
@@ -97,6 +112,10 @@ class Controller extends WidgetController
             $data = self::parsDatas($html, $mask);
         } else {
             $this->result = 'Error. Mask not set';
+        }
+        if ($this->configs['mode'] == 'data') {
+            debug($data);
+            die;
         }
         return $data;
     }
@@ -248,11 +267,7 @@ class Controller extends WidgetController
     private function jobTable($rows, $params)
     {
         foreach($rows as $row){
-            $element = self::jobRow($row, $params);
-            if($element){
-                debug($element);
-                debug('================================');
-            }
+            self::jobRow($row, $params);
         }
 
     }
@@ -283,9 +298,44 @@ class Controller extends WidgetController
                     } else {
                         return [];
                     }
+                    break;
+                case 'func':
+                    if (array_key_exists('name_func', $cell)) {
+                        switch($cell['name_func']){
+                            case 'time':
+                                $element[$name] = time();
+                                break;                            
+                            case 'pars':
+                                $element[$name] = self::parsData($row[$cell['name']], $cell['value']['prefix'], $cell['value']['postfix'])['data'];
+                                break; 
+                        }
+                    }
             }
         }
-        return $element;
+        if ($element){
+            if ($this->configs['mode'] == 'print') {
+                debug($element);
+            }
+            if ($this->configs['mode'] == 'job') {
+                self::saveRow($element, $params);
+            }
+        }
+    }
+
+    private function saveRow($row, $params)
+    {
+        $db = App::$app->getModul('basedb')['object'];
+        if (array_key_exists('uniq', $params)) {
+            $result = $db->findOne($params['table_name'], $params['uniq'] . ' = ?', [$row[$params['uniq']]]);
+            if ($result) {
+                return;
+            }
+        }
+        $tbl = $db->dispense($params['table_name']);
+        foreach ($row as $key => $value) {
+            $tbl->$key = $value;
+        }
+        $db->store($tbl);
     }
 
     public function render()

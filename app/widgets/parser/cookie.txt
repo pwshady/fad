@@ -11,3 +11,4 @@ exampl.com	FALSE	/	FALSE	0	mtmssl	1
 #HttpOnly_.mail.ru	TRUE	/	TRUE	2000927916	mrhc	MC6Nr+VKt0L8mfHq2AaxdkcCWbm9LQKWrlz5xPwtpjk=
 .mail.ru	TRUE	/	FALSE	2000927916	oid	DnVoyd7K5vbC9XLFfEJ3
 www.gtdb.to	FALSE	/	FALSE	0	Guest	oag0tmat8ndmg3mthro158tkq2
+#HttpOnly_.shutok.ru	TRUE	/	TRUE	0	PHPSESSID	id89gmvrc2n2q7ihfjicfs83le

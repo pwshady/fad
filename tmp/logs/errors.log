@@ -1,43 +1,16 @@
-[2023-06-01 15:12:40] Code: 8192 | Message: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 105
-[2023-06-01 15:13:14] Code: 8192 | Message: strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 163
-[2023-06-01 15:53:54] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 57
-[2023-06-01 15:57:10] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/vendor/fa/func/debug.php | Line: 13
-[2023-06-01 16:08:10] Code: 0 | Message: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | File: /opt/lampp/htdocs/fad/vendor/fa/func/debug.php | Line: 14
-[2023-06-01 16:42:03] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 130
-[2023-06-01 17:04:20] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 17:06:02] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 17:07:49] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 17:09:36] Code: 0 | Message: implode(): Argument #1 ($pieces) must be of type array, string given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 127
-[2023-06-01 17:38:13] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 141
-[2023-06-01 17:39:57] Code: 0 | Message: array_push(): Argument #1 ($array) must be of type array, null given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 137
-[2023-06-01 17:43:37] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 143
-[2023-06-01 17:43:54] Code: 2 | Message: Undefined variable $result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 143
-[2023-06-01 18:09:23] Code: 2 | Message: Undefined array key "postfix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
-[2023-06-01 18:10:31] Code: 2 | Message: Undefined array key "postfix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
-[2023-06-01 18:22:50] Code: 2 | Message: Undefined array key "prefix" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 125
-[2023-06-01 18:28:28] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
-[2023-06-01 18:29:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
-[2023-06-01 18:31:50] Code: 0 | Message: strpos(): Argument #1 ($haystack) must be of type string, array given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 160
-[2023-06-01 18:33:23] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 137
-[2023-06-01 18:35:51] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
-[2023-06-01 18:37:46] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
-[2023-06-01 18:46:27] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 144
-[2023-06-01 18:49:17] Code: 2 | Message: foreach() argument must be of type array|object, string given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 18:52:04] Code: 2 | Message: Undefined array key 1 | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 18:53:22] Code: 2 | Message: Undefined array key 1 | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 142
-[2023-06-01 21:16:16] Code: 2 | Message: Undefined variable $recurs | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 132
-[2023-06-01 22:15:51] Code: 0 | Message: syntax error, unexpected token "{", expecting "function" or "const" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 213
-[2023-06-01 22:27:03] Code: 2 | Message: Undefined array key "key" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 217
-[2023-06-02 00:18:26] Code: 2 | Message: Undefined variable $tec_result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 233
-[2023-06-02 00:41:05] Code: 0 | Message: Typed property fa\basic\models\WidgetModel::$configs must not be accessed before initialization | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 31
-[2023-06-02 00:41:20] Code: 0 | Message: Typed property fa\basic\models\WidgetModel::$configs must not be accessed before initialization | File: /opt/lampp/htdocs/fad/vendor/fa/basic/models/WidgetModel.php | Line: 31
-[2023-06-02 01:12:07] Code: 2 | Message: Undefined array key "mask_data" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
-[2023-06-02 09:49:41] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
-[2023-06-02 09:52:11] Code: 0 | Message: Cannot access offset of type string on string | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 228
-[2023-06-02 09:55:37] Code: 2 | Message: Undefined variable $tec_result | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 238
-[2023-06-02 13:32:50] Code: 2 | Message: Undefined variable $pagams | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 245
-[2023-06-02 15:10:19] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
-[2023-06-02 15:11:39] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
-[2023-06-02 15:12:55] Code: 2 | Message: Undefined array key "row" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 252
-[2023-06-02 19:12:11] Code: 2 | Message: Undefined array key "pagination" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 57
-[2023-06-02 19:46:13] Code: 2 | Message: Undefined variable $request | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 81
+[2023-06-06 12:00:08] Code: 2 | Message: Undefined array key "mode" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 90
+[2023-06-06 12:02:47] Code: 2 | Message: Undefined array key "mode" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 90
+[2023-06-06 17:20:16] Code: 0 | Message: Invalid Bean value: property magnet | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php | Line: 374
+[2023-06-06 17:22:30] Code: 0 | Message: Invalid Bean value: property magnet | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php | Line: 374
+[2023-06-06 22:20:56] Code: 0 | Message: Invalid Bean value: property hash | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php | Line: 374
+[2023-06-06 22:24:09] Code: 0 | Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1E1987279929D8247DAE8BA5FB8B046277AEF9DE' for key 'hash' | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+[2023-06-06 22:39:59] Code: 2 | Message: Undefined variable $element | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 329
+[2023-06-06 22:40:46] Code: 2 | Message: Undefined array key "uniq" | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 329
+[2023-06-06 22:42:03] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-06 22:44:05] Code: 0 | Message: key(): Argument #1 ($array) must be of type array, string given | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 329
+[2023-06-06 22:44:45] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-06 22:49:31] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-06 22:50:52] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-06 22:51:49] Code: 0 | Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1E1987279929D8247DAE8BA5FB8B046277AEF9DE' for key 'hash' | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
+[2023-06-06 22:54:51] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-06 22:56:11] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194

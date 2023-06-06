@@ -6,7 +6,7 @@ use fa\App;
 
 class WidgetModel extends Model
 {
-    protected array $configs;
+    protected array $configs = [];
 
     public function __construct(public $dir){}
 
