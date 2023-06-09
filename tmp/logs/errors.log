@@ -14,3 +14,5 @@
 [2023-06-06 22:51:49] Code: 0 | Message: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1E1987279929D8247DAE8BA5FB8B046277AEF9DE' for key 'hash' | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Line: 206
 [2023-06-06 22:54:51] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
 [2023-06-06 22:56:11] Code: 0 | Message: Expected array, string given. | File: /opt/lampp/htdocs/fad/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php | Line: 194
+[2023-06-07 15:31:36] Code: 2 | Message: unlink(/opt/lampp/htdocs/fad/app/widgets/parser/status.json): No such file or directory | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 368
+[2023-06-07 15:32:39] Code: 2 | Message: unlink(/opt/lampp/htdocs/fad/app/widgets/parser/status.json): No such file or directory | File: /opt/lampp/htdocs/fad/app/widgets/parser/Controller.php | Line: 368

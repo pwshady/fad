@@ -25,6 +25,11 @@ class Controller extends WidgetController
         $key = '';
         $url = '';
         $this->configs = $this->model->getConfigs();
+        if (array_key_exists('block', $this->configs) && is_numeric($this->configs['block'])) {
+            if(self::block($this->configs['block'])){
+                return;
+            }
+        }
         if (array_key_exists('url_name', $this->configs) && $this->configs['url_name'] != '') {
             $url_name = $this->configs['url_name'];
         }
@@ -68,7 +73,8 @@ class Controller extends WidgetController
             $data = self::parsPage($html);
             self::jobDatas($this->configs['mask_data'], $data);
         }
-        debug($this->res);
+        self::deblock();
+        $this->result = 'Job completed';
     }
 
     private function getPage($url, $error = 0)
@@ -336,6 +342,33 @@ class Controller extends WidgetController
             $tbl->$key = $value;
         }
         $db->store($tbl);
+    }
+
+    private function block($time)
+    {
+        $path = __DIR__ . '/status.json';
+        if (!file_exists($path)) {  
+            $time = time() + $time;
+            file_put_contents($path, $time);
+        } else {
+            $time = file_get_contents($path);
+            if (time() > $time) {
+                unlink($path);
+                file_put_contents($path, time() + $time);
+            } else {
+                $this->result = 'Block';
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private function deblock()
+    {
+        $path = __DIR__ . '/status.json';
+        if (file_exists($path)) {  
+            unlink($path);
+        }
     }
 
     public function render()
