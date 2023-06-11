@@ -52,8 +52,12 @@ class Controller extends WidgetController
             return;
         }
         $request = [];
-        foreach ($this->params as $key=>$value) {
-            $request[$key] = $value['value'];
+        if (array_key_exists('params', $this->configs)) {
+            foreach ($this->params as $key=>$value) {
+                if (in_array($key, $this->configs['params'])){
+                    $request[$key] = $value['value'];
+                }
+            }
         }
         $url .= '?' . http_build_query($request);
         if (array_key_exists('type_pagination', $this->configs) && $this->configs['type_pagination'] != '') {
@@ -264,6 +268,9 @@ class Controller extends WidgetController
                     case 'table':
                         self::jobTable($data[$mask_data['key']], $mask_data['params']);
                         break;
+                    case 'row':
+                        self::jobRow($data[$mask_data['key']], $mask_data['params']);
+                        break;
                 }
             }
         }
@@ -316,6 +323,10 @@ class Controller extends WidgetController
                                 break; 
                         }
                     }
+                    break;
+                case 'params':
+                    $element[$name] = $this->params[$cell['value']]['value'];
+                    break;
             }
         }
         if ($element){
