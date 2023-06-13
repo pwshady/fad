@@ -34,7 +34,7 @@ class Model
 
     public function setSettings()
     {
-        if (file_exists(ROOT . $this->dir . 'settings.json')) {           
+        if (file_exists(ROOT . $this->dir . 'settings.json')) {       
             $settings = json_decode(file_get_contents(ROOT . $this->dir . 'settings.json'), true);
             if (is_array($settings)) {
                 foreach ($settings as $key => $value) {

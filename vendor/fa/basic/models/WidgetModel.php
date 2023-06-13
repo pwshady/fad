@@ -39,4 +39,18 @@ class WidgetModel extends Model
         return null;
     }
 
+    public function setSettings()
+    {
+        if (file_exists($this->dir . '/' . 'settings.json')) {       
+            $settings = json_decode(file_get_contents($this->dir . '/' . 'settings.json'), true);
+            if (is_array($settings)) {
+                foreach ($settings as $key => $value) {
+                    foreach ($value as $key => $value) {
+                        App::$app->setSetting($key, $value);
+                    }
+                }
+            }
+        }
+    }
+
 }

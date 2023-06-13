@@ -40,7 +40,6 @@ class WidgetController extends Controller
         }
         $widget['complete'] = 1;
         App::$app->updateWidget($widget);
-        debug($widget);
     }
 
     protected function init()

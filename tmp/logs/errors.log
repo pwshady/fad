@@ -1,0 +1,4 @@
+[2023-06-13 18:13:32] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/dtorrent/Controller.php | Line: 21
+[2023-06-13 18:19:01] Code: 0 | Message: Call to undefined method fa\Registry::getPropertys() | File: /opt/lampp/htdocs/fad/app/widgets/dtorrent/Controller.php | Line: 23
+[2023-06-13 18:55:27] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/vendor/fa/Registry.php | Line: 362
+[2023-06-13 21:52:53] Code: 2 | Message: Trying to access array offset on value of type null | File: /opt/lampp/htdocs/fad/app/widgets/torrent/searchView.php | Line: 5

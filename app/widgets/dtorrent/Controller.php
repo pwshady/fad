@@ -18,8 +18,9 @@ class Controller extends WidgetController
     {
         $widget['name'] = $this->widget_name;
         $widget['complete'] = 1;
-        $labels = $this->model->getLabels();
+        $labels = $this->model->setLabels();
         ob_start();
+        debug(App::$app->getPrefix());
         require_once __DIR__ . '/infoView.php';
         $html[0] = ob_get_clean();
         $widget['code'] = $html;

@@ -1,6 +1,6 @@
 {
     "base_url": "https://www.gtdb.to",
-    "mode": "print",
+    "mode": "job",
     "headers": [],
     "max_error": "2",
     "mask": {
@@ -297,7 +297,7 @@
                     "key": "file",
                     "type": "table",
                     "params": {
-                        "table_name": "torrents",
+                        "table_name": "torrentf",
                         "row": {
                             "id": {
                                 "type": "const",

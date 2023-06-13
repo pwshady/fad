@@ -354,5 +354,15 @@ class Registry
         }
     }
 
+    public function getPrefix()
+    {
+        $prefix = self::getUrl();
+        //nedodelano
+        if (file_exists(ROOT . '/app/landlang.json')){
+            $prefix.= App::$app->getLanguage()['code'] . '/';
+        }
+        return $prefix;
+    }
+
 
 }
