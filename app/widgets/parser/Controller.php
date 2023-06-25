@@ -11,7 +11,7 @@ class Controller extends WidgetController
 
     private string $result = 'unknown result';
     private array $res = [];
-    private array $configs;
+
 
     public function run()
     {
@@ -24,7 +24,6 @@ class Controller extends WidgetController
         $key_name = 'key';
         $key = '';
         $url = '';
-        $this->configs = $this->model->getConfigs();
         if (array_key_exists('block', $this->configs) && is_numeric($this->configs['block'])) {
             if(self::block($this->configs['block'])){
                 return;

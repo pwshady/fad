@@ -11,6 +11,8 @@ class WidgetController extends Controller
     protected string $prefix_snake = '';
     protected string $widget_dir = '';
     protected object $model;
+    protected string $public = '';
+    protected array $configs;
 
 
     public function __construct(public $page_dir, protected $widget_name, public $params = []){}
@@ -24,6 +26,7 @@ class WidgetController extends Controller
         }
         $this->model = new $model_path($this->widget_dir);
         $this->model->run();
+        $this->configs = $this->model->getConfigs();
     }
 
     public function render()
@@ -47,6 +50,7 @@ class WidgetController extends Controller
         $this->widget_dir = WIDGET . '/'. $this->widget_name;
         $this->prefix_kebab = 'w-' . $this->widget_name . '-';
         $this->prefix_snake = 'w_' . $this->widget_name . '_';
+        $this->public = App::$app->getPublic() . 'app/widgets/' . $this->widget_name;
     }
 
 }

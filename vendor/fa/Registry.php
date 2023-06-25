@@ -364,5 +364,15 @@ class Registry
         return $prefix;
     }
 
+    function redirect()
+    {
+        header('Location: ' . $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . self::getPrefix() . self::getPage() . '?' . self::getGet());
+        die;
+    }
+
+    function getPublic()
+    {
+        return $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . self::getUrl();
+    }
 
 }

@@ -1,4 +1,7 @@
-[2023-06-13 18:13:32] Code: 0 | Message: Call to undefined method fa\basic\models\WidgetModel::getLabels() | File: /opt/lampp/htdocs/fad/app/widgets/dtorrent/Controller.php | Line: 21
-[2023-06-13 18:19:01] Code: 0 | Message: Call to undefined method fa\Registry::getPropertys() | File: /opt/lampp/htdocs/fad/app/widgets/dtorrent/Controller.php | Line: 23
-[2023-06-13 18:55:27] Code: 2 | Message: Array to string conversion | File: /opt/lampp/htdocs/fad/vendor/fa/Registry.php | Line: 362
-[2023-06-13 21:52:53] Code: 2 | Message: Trying to access array offset on value of type null | File: /opt/lampp/htdocs/fad/app/widgets/torrent/searchView.php | Line: 5
+[2023-06-25 19:07:53] Code: 2 | Message: Undefined array key "HTTP_REFERRER" | File: /opt/lampp/htdocs/fad/app/widgets/languageselector/Controller.php | Line: 39
+[2023-06-25 19:08:12] Code: 2 | Message: Undefined array key "HTTP_REFERER" | File: /opt/lampp/htdocs/fad/app/widgets/languageselector/Controller.php | Line: 39
+[2023-06-25 20:04:21] Code: 2 | Message: Undefined array key "URI" | File: /opt/lampp/htdocs/fad/vendor/fa/func/auxiliarys.php | Line: 10
+[2023-06-25 20:42:05] Code: 0 | Message: Class "App" not found | File: /opt/lampp/htdocs/fad/vendor/fa/func/auxiliarys.php | Line: 11
+[2023-06-25 20:48:38] Code: 0 | Message: Call to undefined function app\widgets\languageselector\emptu() | File: /opt/lampp/htdocs/fad/app/widgets/languageselector/Controller.php | Line: 23
+[2023-06-25 21:03:56] Code: 0 | Message: Cannot assign string to property fa\Registry::$language of type array | File: /opt/lampp/htdocs/fad/vendor/fa/Registry.php | Line: 123
+[2023-06-25 21:34:22] Code: 0 | Message: Call to undefined function fa\getUrl() | File: /opt/lampp/htdocs/fad/vendor/fa/Registry.php | Line: 375
