@@ -53,4 +53,9 @@ class Controller
         return R::getCell($sql, $params);
     }
 
+    public function beansToArray($beans)
+    {
+        return R::beansToArray($beans);
+    }
+
 }

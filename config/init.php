@@ -13,6 +13,7 @@ define("APP", ROOT . '/app');
 define("PAGE", APP . '/pages');
 define("WIDGET", APP . '/widgets');
 define("MODUL", APP . '/modules');
+define("PART", APP . '/parts');
 
 #Config constants
 define("CONFIG", ROOT . '/config');

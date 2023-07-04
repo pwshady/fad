@@ -59,6 +59,7 @@ class Controller extends WidgetController
             }
         }
         $url .= '?' . http_build_query($request);
+        debug($url);
         if (array_key_exists('type_pagination', $this->configs) && $this->configs['type_pagination'] != '') {
             switch ($this->configs['type_pagination']) {
                 case 'next':

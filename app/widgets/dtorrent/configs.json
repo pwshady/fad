@@ -1,0 +1,26 @@
+{
+    "tdata": {
+        "tname": "torrent",
+        "hash": "hash",
+        "cat": "cat",
+        "name": "name",
+        "magnet": "magnet",
+        "size": "size",
+        "seed": "seed",
+        "leech": "leech",
+        "dtime": "dtime"
+    },
+    "info": {
+        "tname": "torrentsd",
+        "description": "desc"
+    },
+    "trackers": {
+        "tname": "torrentst",
+        "trackers": "name"
+    },
+    "files": {
+        "tname": "torrentf",
+        "name": "name",
+        "size": "size"
+    }
+}

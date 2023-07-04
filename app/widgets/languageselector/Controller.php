@@ -11,6 +11,7 @@ class Controller extends WidgetController
 
     private array $languages = [];
     private array $tec_language = [];
+    private array $links = [];
 
     public function run()
     {
@@ -22,7 +23,7 @@ class Controller extends WidgetController
     {
         if (!empty($this->params)){
             App::$app->setLanguage(['code' => $this->params['code']['value']]);
-            App::$app->redirect();
+            App::$app->getLink();
         }
         if (is_file(ROOT . '/app/landlang.json')){
             $ll = json_decode(file_get_contents(ROOT . '/app/landlang.json'), true);
@@ -40,7 +41,6 @@ class Controller extends WidgetController
         } else {
             return;
         }
-        debug($this->public);
     }
 
     public function render()

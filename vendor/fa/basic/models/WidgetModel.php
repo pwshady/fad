@@ -18,8 +18,8 @@ class WidgetModel extends Model
 
     public function setConfigs()
     {
-        if (file_exists($this->dir . '/config.json')) {            
-            $configs = json_decode(file_get_contents($this->dir . '/config.json'), true);
+        if (file_exists($this->dir . '/configs.json')) {            
+            $configs = json_decode(file_get_contents($this->dir . '/configs.json'), true);
             if (is_array($configs)) {
                 $this->configs = $configs;
             }

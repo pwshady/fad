@@ -364,9 +364,22 @@ class Registry
         return $prefix;
     }
 
-    function redirect()
+    function getLink($mode = 0)
     {
-        header('Location: ' . $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . self::getPrefix() . self::getPage() . '?' . self::getGet());
+        $link = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . self::getPrefix();
+        if (!empty(self::getPage())) {
+            $link .= self::getPage();
+        }
+        if (!empty(self::getRequest())) {
+            $link .= '/' . self::getRequest();
+        }
+        if (!empty(self::getGet())) {
+            $link .= '?' . self::getGet();
+        }
+        if ($mode) {
+            return $link;
+        }
+        header('Location: ' . $link);
         die;
     }
 
